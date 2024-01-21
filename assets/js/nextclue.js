@@ -26,7 +26,7 @@ body.addEventListener('click', function () {
 
 // Double Click
 $(".this-pics").dblclick(function () {
-    window.location.href = "/anotherclue.html";
+    window.location.href = "/anotherclue";
 });
 
 console.clear();

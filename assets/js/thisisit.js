@@ -30,7 +30,7 @@ $("#submitAnswer").click(function () {
     var result = nameTrivia.toString().toLowerCase();
     var finalResult = result.includes("done");
     if (finalResult == true) {
-        window.location.href = "/notmain.html";
+        window.location.href = "/notmain";
     }
     else {
         document.getElementById("errorHandler").innerHTML = "Wrong Answer. Please Try again.";

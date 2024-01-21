@@ -30,7 +30,7 @@ $("#submitAnswer").click(function () {
     var result = movieTrivia.toString().toLowerCase();
     var finalResult = result.includes("issac newton");
     if (finalResult == true) {
-        window.location.href = "/almostthere.html";
+        window.location.href = "/almostthere";
     }
     else {
         document.getElementById("errorHandler").innerHTML = "Wrong Answer. Please Try again.";

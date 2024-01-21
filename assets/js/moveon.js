@@ -30,7 +30,7 @@ $("#submitAnswer").click(function () {
     var result = ruleTrivia.toString().toLowerCase();
     var finalResult = result.includes("nomin");
     if (finalResult == true) {
-        window.location.href = "/ggwp.html";
+        window.location.href = "/ggwp";
     }
     else {
         document.getElementById("errorHandler").innerHTML = "Wrong Answer. Please Try again.";
