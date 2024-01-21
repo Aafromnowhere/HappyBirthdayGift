@@ -30,7 +30,7 @@ $("#submitAnswer").click(function () {
     var result = bondTrivia.toString().toLowerCase();
     var finalResult = result.includes("sign");
     if (finalResult == true) {
-        window.location.href = "/thisisit";
+        window.location.href = "/HappyBirthdayGift/thisisit";
     }
     else {
         document.getElementById("errorHandler").innerHTML = "Wrong Answer. Please Try again.";

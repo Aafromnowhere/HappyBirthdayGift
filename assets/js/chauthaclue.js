@@ -30,7 +30,7 @@ $("#submitAnswer").click(function () {
     var result = firstTimeOut.toString().toLowerCase();
     var finalResult = result.includes("pe's house");
     if (finalResult == true) {
-        window.location.href = "/nextclue";
+        window.location.href = "/HappyBirthdayGift/nextclue";
     }
     else {
         document.getElementById("errorHandler").innerHTML = "Wrong Answer. Please Try again.";
