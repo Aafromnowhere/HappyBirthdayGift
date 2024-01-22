@@ -28,7 +28,7 @@ body.addEventListener('click', function () {
 $("#submitAnswer").click(function () {
     var movieTrivia = document.getElementById("movieTrivia").value;
     var result = movieTrivia.toString().toLowerCase();
-    var finalResult = result.includes("issac newton");
+    var finalResult = result.includes("isaac newton");
     if (finalResult == true) {
         window.location.href = "/HappyBirthdayGift/almostthere";
     }
